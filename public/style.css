@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.chat {
+    background-color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+ul#messages {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #333;
+    display: inline-block;
+}
+
+input#input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00aaff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0099cc;
+}
+
+/* Futuristic Design */
+.container {
+    background-color: #121212;
+    box-shadow: 0 0 20px rgba(0, 170, 255, 0.4);
+}
+
+.chat {
+    background-color: #000;
+    box-shadow: 0 0 20px rgba(0, 170, 255, 0.4);
+}
+
+li {
+    background-color: #222;
+    box-shadow: 0 0 10px rgba(0, 170, 255, 0.4);
+}
+
+button {
+    background-color: #00aaff;
+    box-shadow: 0 0 10px rgba(0, 170, 255, 0.4);
+}
+
+button:hover {
+    background-color: #0099cc;
+}
